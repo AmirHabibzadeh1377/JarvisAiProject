@@ -1,0 +1,11 @@
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\bin\Debug\net9.0\Jarvis.Infrastruture.deps.json
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\bin\Debug\net9.0\Jarvis.Infrastruture.dll
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\bin\Debug\net9.0\Jarvis.Infrastruture.pdb
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\Jarvis.Infrastruture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\Jarvis.Infrastruture.AssemblyInfoInputs.cache
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\Jarvis.Infrastruture.AssemblyInfo.cs
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\Jarvis.Infrastruture.csproj.CoreCompileInputs.cache
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\Jarvis.Infrastruture.dll
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\refint\Jarvis.Infrastruture.dll
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\Jarvis.Infrastruture.pdb
+C:\Users\a.habibzadeh\source\repos\Jarvis.Infrastruture\obj\Debug\net9.0\ref\Jarvis.Infrastruture.dll

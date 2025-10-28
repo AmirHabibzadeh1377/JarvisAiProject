@@ -1,0 +1,11 @@
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\bin\Debug\net9.0\Jarvice.Core.deps.json
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\bin\Debug\net9.0\Jarvice.Core.dll
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\bin\Debug\net9.0\Jarvice.Core.pdb
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\Jarvice.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\Jarvice.Core.AssemblyInfoInputs.cache
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\Jarvice.Core.AssemblyInfo.cs
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\Jarvice.Core.csproj.CoreCompileInputs.cache
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\Jarvice.Core.dll
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\refint\Jarvice.Core.dll
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\Jarvice.Core.pdb
+C:\Users\a.habibzadeh\source\repos\Jarvice.Core\obj\Debug\net9.0\ref\Jarvice.Core.dll

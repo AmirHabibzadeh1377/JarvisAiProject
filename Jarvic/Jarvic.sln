@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvic", "Jarvic.csproj", "{4D0B1891-F692-4177-B879-EED2D97531FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C3209152-3BB2-4546-B64A-D2E89377A37C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvice.Core", "..\Jarvice.Core\Jarvice.Core.csproj", "{D4BF09DE-2392-4DEB-997F-8B85F2B3A969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvice.Plugins.Abstraction", "..\Jarvice.Plugins.Abstraction\Jarvice.Plugins.Abstraction.csproj", "{0FD31EB8-670E-40F1-9F00-2F102FB9EEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.Plugins.Reminder", "..\Jarvis.Plugins.Reminder\Jarvis.Plugins.Reminder.csproj", "{9E248F52-3470-4D80-A168-6FF409A65148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.Infrastruture", "..\Jarvis.Infrastruture\Jarvis.Infrastruture.csproj", "{D3CA8383-FE4D-4E11-B902-64179FA1BF97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jarvis.Test", "..\Jarvis.Test\Jarvis.Test.csproj", "{95D47ADC-82FD-452C-8427-295FC7015B03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{631105FE-8809-4E50-A37C-B0A192A56A3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0B1891-F692-4177-B879-EED2D97531FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0B1891-F692-4177-B879-EED2D97531FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0B1891-F692-4177-B879-EED2D97531FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0B1891-F692-4177-B879-EED2D97531FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BF09DE-2392-4DEB-997F-8B85F2B3A969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BF09DE-2392-4DEB-997F-8B85F2B3A969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BF09DE-2392-4DEB-997F-8B85F2B3A969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BF09DE-2392-4DEB-997F-8B85F2B3A969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD31EB8-670E-40F1-9F00-2F102FB9EEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD31EB8-670E-40F1-9F00-2F102FB9EEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD31EB8-670E-40F1-9F00-2F102FB9EEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD31EB8-670E-40F1-9F00-2F102FB9EEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E248F52-3470-4D80-A168-6FF409A65148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E248F52-3470-4D80-A168-6FF409A65148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E248F52-3470-4D80-A168-6FF409A65148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E248F52-3470-4D80-A168-6FF409A65148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CA8383-FE4D-4E11-B902-64179FA1BF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CA8383-FE4D-4E11-B902-64179FA1BF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CA8383-FE4D-4E11-B902-64179FA1BF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CA8383-FE4D-4E11-B902-64179FA1BF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D47ADC-82FD-452C-8427-295FC7015B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D47ADC-82FD-452C-8427-295FC7015B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D47ADC-82FD-452C-8427-295FC7015B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D47ADC-82FD-452C-8427-295FC7015B03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D0B1891-F692-4177-B879-EED2D97531FD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D4BF09DE-2392-4DEB-997F-8B85F2B3A969} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0FD31EB8-670E-40F1-9F00-2F102FB9EEDC} = {631105FE-8809-4E50-A37C-B0A192A56A3A}
+		{9E248F52-3470-4D80-A168-6FF409A65148} = {631105FE-8809-4E50-A37C-B0A192A56A3A}
+		{D3CA8383-FE4D-4E11-B902-64179FA1BF97} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{95D47ADC-82FD-452C-8427-295FC7015B03} = {C3209152-3BB2-4546-B64A-D2E89377A37C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF857B19-8E1A-40F7-BF9C-DF56185E39A4}
+	EndGlobalSection
+EndGlobal

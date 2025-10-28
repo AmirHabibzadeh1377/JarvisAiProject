@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Jarvic/1.0.0": {
+        "dependencies": {
+          "Jarvice.Core": "1.0.0",
+          "Jarvice.Plugins.Abstraction": "1.0.0",
+          "Jarvis.Infrastruture": "1.0.0",
+          "Jarvis.Plugins.Reminder": "1.0.0",
+          "Jarvis.Test": "1.0.0"
+        },
+        "runtime": {
+          "Jarvic.dll": {}
+        }
+      },
+      "Jarvice.Core/1.0.0": {
+        "runtime": {
+          "Jarvice.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Jarvice.Plugins.Abstraction/1.0.0": {
+        "runtime": {
+          "Jarvice.Plugins.Abstraction.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Jarvis.Infrastruture/1.0.0": {
+        "runtime": {
+          "Jarvis.Infrastruture.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Jarvis.Plugins.Reminder/1.0.0": {
+        "runtime": {
+          "Jarvis.Plugins.Reminder.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Jarvis.Test/1.0.0": {
+        "runtime": {
+          "Jarvis.Test.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jarvic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jarvice.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jarvice.Plugins.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jarvis.Infrastruture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jarvis.Plugins.Reminder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jarvis.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

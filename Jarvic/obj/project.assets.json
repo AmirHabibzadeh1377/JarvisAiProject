@@ -1,0 +1,178 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Jarvice.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Jarvice.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jarvice.Core.dll": {}
+        }
+      },
+      "Jarvice.Plugins.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Jarvice.Plugins.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jarvice.Plugins.Abstraction.dll": {}
+        }
+      },
+      "Jarvis.Infrastruture/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Jarvis.Infrastruture.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jarvis.Infrastruture.dll": {}
+        }
+      },
+      "Jarvis.Plugins.Reminder/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Jarvis.Plugins.Reminder.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jarvis.Plugins.Reminder.dll": {}
+        }
+      },
+      "Jarvis.Test/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Jarvis.Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jarvis.Test.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jarvice.Core/1.0.0": {
+      "type": "project",
+      "path": "../Jarvice.Core/Jarvice.Core.csproj",
+      "msbuildProject": "../Jarvice.Core/Jarvice.Core.csproj"
+    },
+    "Jarvice.Plugins.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../Jarvice.Plugins.Abstraction/Jarvice.Plugins.Abstraction.csproj",
+      "msbuildProject": "../Jarvice.Plugins.Abstraction/Jarvice.Plugins.Abstraction.csproj"
+    },
+    "Jarvis.Infrastruture/1.0.0": {
+      "type": "project",
+      "path": "../Jarvis.Infrastruture/Jarvis.Infrastruture.csproj",
+      "msbuildProject": "../Jarvis.Infrastruture/Jarvis.Infrastruture.csproj"
+    },
+    "Jarvis.Plugins.Reminder/1.0.0": {
+      "type": "project",
+      "path": "../Jarvis.Plugins.Reminder/Jarvis.Plugins.Reminder.csproj",
+      "msbuildProject": "../Jarvis.Plugins.Reminder/Jarvis.Plugins.Reminder.csproj"
+    },
+    "Jarvis.Test/1.0.0": {
+      "type": "project",
+      "path": "../Jarvis.Test/Jarvis.Test.csproj",
+      "msbuildProject": "../Jarvis.Test/Jarvis.Test.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Jarvice.Core >= 1.0.0",
+      "Jarvice.Plugins.Abstraction >= 1.0.0",
+      "Jarvis.Infrastruture >= 1.0.0",
+      "Jarvis.Plugins.Reminder >= 1.0.0",
+      "Jarvis.Test >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\a.habibzadeh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvic\\Jarvic.csproj",
+      "projectName": "Jarvic",
+      "projectPath": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvic\\Jarvic.csproj",
+      "packagesPath": "C:\\Users\\a.habibzadeh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvic\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\a.habibzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "http://31.7.71.155:5700/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvice.Core\\Jarvice.Core.csproj": {
+              "projectPath": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvice.Core\\Jarvice.Core.csproj"
+            },
+            "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvice.Plugins.Abstraction\\Jarvice.Plugins.Abstraction.csproj": {
+              "projectPath": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvice.Plugins.Abstraction\\Jarvice.Plugins.Abstraction.csproj"
+            },
+            "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvis.Infrastruture\\Jarvis.Infrastruture.csproj": {
+              "projectPath": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvis.Infrastruture\\Jarvis.Infrastruture.csproj"
+            },
+            "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvis.Plugins.Reminder\\Jarvis.Plugins.Reminder.csproj": {
+              "projectPath": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvis.Plugins.Reminder\\Jarvis.Plugins.Reminder.csproj"
+            },
+            "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvis.Test\\Jarvis.Test.csproj": {
+              "projectPath": "C:\\Users\\a.habibzadeh\\source\\repos\\javisai\\Jarvis.Test\\Jarvis.Test.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
