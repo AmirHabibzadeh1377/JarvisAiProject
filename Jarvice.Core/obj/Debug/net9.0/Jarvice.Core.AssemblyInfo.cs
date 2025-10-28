@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jarvice.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fc0ff93a45858f80c48a060f956a92def63032f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa1008515dee43649b764de2632e3d6ccb0d7cfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jarvice.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jarvice.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
