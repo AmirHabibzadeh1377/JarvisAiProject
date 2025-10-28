@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jarvic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fc0ff93a45858f80c48a060f956a92def63032f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jarvic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jarvic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
