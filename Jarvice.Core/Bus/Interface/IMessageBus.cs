@@ -1,4 +1,4 @@
-﻿namespace Jarvice.Core.Bus
+﻿namespace Jarvice.Core.Bus.Interface
 {
     public interface IMessageBus
     {

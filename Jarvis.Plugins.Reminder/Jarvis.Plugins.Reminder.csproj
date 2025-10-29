@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Jarvice.Plugins.Abstraction\Jarvice.Plugins.Abstraction.csproj" />
+  </ItemGroup>
+
 </Project>
