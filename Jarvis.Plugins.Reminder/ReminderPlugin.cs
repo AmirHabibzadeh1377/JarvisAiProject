@@ -3,7 +3,7 @@ using static Jarvice.Plugins.Abstraction.Interface.IJarvisPlugin;
 
 namespace Jarvis.Plugins.Reminder
 {
-    internal class ReminderPlugin : IJarvisPlugin
+    public class ReminderPlugin : IJarvisPlugin
     {
         public string Name => "ReminderPlugin";
 

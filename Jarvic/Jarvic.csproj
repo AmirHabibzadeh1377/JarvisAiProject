@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Jarvice.Core\Jarvice.Core.csproj" />
     <ProjectReference Include="..\Jarvice.Plugins.Abstraction\Jarvice.Plugins.Abstraction.csproj" />
+    <ProjectReference Include="..\Jarvis.Plugins.Reminder\Jarvis.Plugins.Reminder.csproj" />
   </ItemGroup>
 
 </Project>
