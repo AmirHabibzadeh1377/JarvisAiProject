@@ -11,10 +11,13 @@ using Jarvice.Plugins.Abstraction.Interface;
 using Jarvis.Plugins.Reminder;
 using Microsoft.Extensions.Logging;
 using Jarvic.Helper;
+using System.Text;
+using System.Runtime.InteropServices;
 
 await Host.CreateDefaultBuilder(args)
     .ConfigureServices((ctx, services) =>
 {
+
     services.AddSingleton<IMessageBus, InmemoryMessageBus>();
     services.AddSingleton<INluEngine, RuleBasedNlu>();
     services.AddSingleton<IOrchestrator, OrchestratorService>();
@@ -37,6 +40,8 @@ await Host.CreateDefaultBuilder(args)
 }).ConfigureLogging(l => l.ClearProviders().AddSimpleConsole())
 .RunConsoleApp(async (host, ct) =>
 {
+    Console.OutputEncoding = Encoding.UTF8;
+    Console.InputEncoding = Encoding.UTF8;
     var orchestrator = host.Services.GetRequiredService<IOrchestrator>();
     Console.WriteLine("Jarvis CLI آماده است. (exit برای خروج)");
     while (true)
@@ -47,6 +52,6 @@ await Host.CreateDefaultBuilder(args)
         if (line.Trim().Equals("exit", StringComparison.OrdinalIgnoreCase)) break;
 
         var reply = await orchestrator.HandleAsync(new(line, DateTimeOffset.Now), ct);
-        Console.WriteLine($"Jarvis: {reply.Text}");
+        Console.WriteLine(Encoding.UTF8.ToString(),$"Jarvis: {reply.Text}");
     }
 });

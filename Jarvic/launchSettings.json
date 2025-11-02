@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Run in Windows Terminal (CMD)": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\%USERNAME%\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+      "workingDirectory": ".",
+      "commandLineArgs": "cmd /K chcp 65001 & .\\bin\\Debug\\net9.0\\Jarvis.CLI.exe"
+    }
+  }
+}

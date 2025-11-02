@@ -26,6 +26,7 @@ namespace Jarvice.Core.Services.Impelementation
 
         public async Task<BotMessage> HandleAsync(UserMessage input, CancellationToken cancellationToken = default)
         {
+            
             var intent = _nlueEngine.Predict(input.Text);
             var plugin = _plugins.FirstOrDefault(p => p.Intents.Contains(intent.Intent));
             if(plugin is null)
