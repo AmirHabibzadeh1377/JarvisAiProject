@@ -11,15 +11,17 @@ namespace Jarvice.Core.Services.Impelementation
 
         private readonly INluEngine _nlueEngine;
         private readonly IEnumerable<IJarvisPlugin> _plugins;
+        private readonly IServiceProvider _serviceProvider;
 
         #endregion
 
         #region Ctor
 
-        public OrchestratorService(INluEngine nlueEngine, IEnumerable<IJarvisPlugin> plugins)
+        public OrchestratorService(INluEngine nlueEngine, IEnumerable<IJarvisPlugin> plugins, IServiceProvider serviceProvider)
         {
             _nlueEngine = nlueEngine;
             _plugins = plugins;
+            _serviceProvider = serviceProvider;
         }
 
         #endregion
@@ -34,7 +36,7 @@ namespace Jarvice.Core.Services.Impelementation
                 return new BotMessage($"متوجه نشدم چی می‌خوای. (intent={intent.Intent})", intent.Intent);
             }
 
-            var result = await plugin.ExecuteAsync(new PluginContext(intent.Intent, intent.Slots, null,null),cancellationToken);
+            var result = await plugin.ExecuteAsync(new PluginContext(intent.Intent, intent.Slots, input.Text,_serviceProvider),cancellationToken);
             return new BotMessage(result.Message, intent.Intent);
         }
     }

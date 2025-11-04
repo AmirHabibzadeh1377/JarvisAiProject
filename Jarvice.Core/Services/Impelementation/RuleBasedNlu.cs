@@ -19,7 +19,7 @@ namespace Jarvice.Core.Services.Impelementation
             if (ReminderRx.IsMatch(text))
             {
                 var m = ReminderRx.Match(text);
-                var t = m.Groups[3].Value ?? "";
+                var t = m.Groups[0].Value ?? "";
                 return new IntentResult("reminder.Create", new() { ["Time"] = t });
             }
             else if (TimeRx.IsMatch(text))
